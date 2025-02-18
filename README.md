@@ -73,7 +73,6 @@ sudo vim /etc/postgresql/17/main/pg_hba.conf
 ```
 Add the following lines:
 ```ini
-host	all		all		192.168.122.0/24	trust
 host	replication	test	192.168.122.196/32	md5
 ```
 
